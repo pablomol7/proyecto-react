@@ -3,9 +3,8 @@ import NavBar from './components/header/NavBar';
 import ContainerCardItems from './components/components item/ContainerCardItems';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import DetailsItem from './components/components item/DetailsItem';
-import { createContext, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import ProviderContextoListCart from './components/components item/providerContextoListCart';
-
 
 function App() {
 
@@ -26,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+

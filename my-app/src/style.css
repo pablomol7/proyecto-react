@@ -21,11 +21,10 @@ header{
 
 /* containerBrand */
 header .containerBrand{
-    width: 20%;
-    min-width: 200px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
 header .containerBrand img{
@@ -34,11 +33,14 @@ header .containerBrand img{
 
 /* containerList */
 header .containerItemList{
-    width: 70%;
-    height: 100%;
+   
+
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 header .containerItemList ul{
@@ -47,13 +49,19 @@ header .containerItemList ul{
     margin: 0;
     justify-content: flex-end;
     
+    
 }
 
-header .containerItemList ul li{
-    text-decoration: none;
-    
-    margin: 0 0 0 50px;
-    color: var(--color-txt-nav);
+header .containerItemList ul li a{
+    list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #224d8d;
+  transition: .4s;
 }
 
 /* containerCart */
